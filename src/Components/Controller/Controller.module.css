@@ -1,0 +1,43 @@
+.Form_container {
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  color: white;
+  padding: 10px;
+}
+
+.Controller {
+  border: 2px solid seagreen;
+  border-radius: 5px;
+}
+
+.Input {
+  color: white;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.Btn {
+  color: white;
+  width: 40px;
+  height: 30px;
+  border: none;
+  background-color: seagreen;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.Btn:hover {
+  background-color: rgb(122, 216, 163);
+}
